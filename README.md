@@ -34,8 +34,6 @@ This repo includes PC, Mac, Linux and console support (PS4, PS5, XBox One, XBox 
 
 6. Edit your game mode blueprint to exec **UpgradePlayer** in response to the **OnPostLogin**
 
-<img src="https://storage.googleapis.com/network-next-ue4/blueprint.jpg" alt="Network Next" width="600"/>
-
 7. Set environment variables on the server, so Network Next knows where your server is running.
 
         export NEXT_SERVER_ADDRESS=10.2.100.23:7777        # change to the public IP:port of your server
